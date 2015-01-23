@@ -9,4 +9,4 @@ def hackOne(a, b):
       if i == a - sum or a - sum < 1:
          return "Error"
    parts.append(a - sum)
-   print(parts)+
+   print(parts)

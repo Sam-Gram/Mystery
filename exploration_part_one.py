@@ -22,16 +22,16 @@ def randomBreakDown(A, B):
 		print “Does not work”
 	else:
   	while(sum != A):
-  		nums = list()
-  		sum = 0
-      for i in range(1, B):
-    	  valid = false
-        while(valid == false):
-          val = random.randrange(1, largestNum + 1)
-          if val not in nums:
-            valid = true
-          	sum += val
-          	nums.append(val)
+	  	nums = list()
+	  	sum = 0
+	      	for i in range(1, B):
+	    	  valid = false
+	          while(valid == false):
+	            val = random.randrange(1, largestNum + 1)
+	            if val not in nums:
+	              valid = true
+	              sum += val
+	              nums.append(val)
     print(nums)
 
 

@@ -1,4 +1,3 @@
-checkedSolutions = list()
 
 def isSolutionUsed(solution, usedSolutions):
     index = 0

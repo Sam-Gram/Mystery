@@ -33,7 +33,7 @@ def findAnswer(words, word):
        sum += solution[ord[let] - 97]
    return sum
 
-def isValidSolution(solution, words)
+def isValidSolution(solution, words):
 {
    for key, word in words:
        sum = 0

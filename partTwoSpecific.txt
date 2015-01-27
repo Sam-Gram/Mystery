@@ -1,0 +1,23 @@
+Algorithmic approach for "What is the answer?"
+First we notice that MELT = (M+L+T)*E = 15
+Since M, L and T have to be positive numbers the result at minimum must be 6.
+therefore since the only pairs of multiples that go into 15 are (5,3) and (15,1), we can conclude that M+L+T = 15 and that E=1.
+Next, looking at PLUM and PLUME we know that (P+L+M)*U = 36 and that (P+L+M)*(U+E)=48 (which could be written as (P+L+M)*(U+1)=48).
+Looking at the possible factors of 36 and 48 we get 6*6 and 6*8, 12*3 and 12*4, and 36*1 and 48*1.
+Recalling that we know that the least any three consonants are at least equal to 6, and that one of the factors must be greater than one leaves us with 12*3 and 13*4.
+Therefore, we know that U + E=4, and that U = 3.
+Next, looking at SAVE, we see that (S+V)*(A+E) = 51 (which could be written as (S+V)*(A+1)) we see a similar problem.
+The factors of 51 are 17*3, and 51*1, and since we know that e = 1 and that no number is less that one, it is easy to conclude that
+that S+V = 17 and that A+E = 3 after looking at PAPER and seeing that A+E can't be larger than eleven. Therefore, A = 2.
+Knowing these two consonants, we can run through the other words who have only e's and a's as consonants and produce a family of formula.
+P+L+N = 13
+L+M   = 6
+M+L+B = 17
+W+S+T = 20
+W+S+T+R+N = 35
+G+R+T = 20
+P+P+R = 22
+
+Looking at L+M and M+L+B, we get 6+B=17 or B=11. Also we can get 20+R+N=35 or R+N=20. Using P+P+R = 22, we can look at PIPER.
+(P+P+R)+(I+E) = 110 or 22*(I+1) = 110 or I+1=5 or I=4. Looking at VIPER we can see that
+(V+P+R)*(I+E)=150 or that V+P+R=30. 
